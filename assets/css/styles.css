@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+
+header > div {
+  background-color: #222f3f;
+  padding-left: 1.8rem;
+}
+header > div > img {
+  width: 8.5rem;
+  padding: 0.6rem 0;
+}
+nav {
+  background-color: #364759;
+  font-size: 1.1rem;
+  padding: 0.6rem;
+  padding-left: 1.8rem;
+}
+a {
+  text-decoration: none;
+  color: #165d71;
+  font-weight: 600;
+}
+nav a {
+  color: #fff;
+  margin-right: 1rem;
+  font-weight: 300;
+}
+
+main {
+  padding: 0 1.8rem;
+}
+
+main > span {
+  margin-top: 1.8rem;
+  display: block;
+  background-color: #f56600;
+  text-align: center;
+  color: white;
+  padding: 0.6rem 0.5rem;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-weight: 500;
+}
+.holiday {
+  background-image: url(/assets/img/bg-image.png);
+  background-size: 110rem;
+  text-align: center;
+  color: #fff;
+  padding: 4rem;
+  margin-top: 1.8rem;
+}
+
+.holiday p {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.perfect-gift-section {
+  margin-top: 1.8rem;
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+.perfect-gift-section h2,
+.perfect-gift-section a {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+.perfect-gift-section a {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.gift-all-img {
+  display: block;
+}
+
+.perfect-gift-section div {
+  width: 100%;
+}
+.perfect-gift-section div > img {
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  height: 25rem;
+  width: 23%;
+}
+
+.perfect-gift-section div > img:not(:last-child) {
+  margin-right: 2.4%;
+}
+
+.gaming-audio-section img {
+  width: 100%;
+}
+.gaming-audio-section {
+  text-align: center;
+}
+.gaming-audio-section p,
+.gaming-audio-section a {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+}
+
+.gaming-audio-section a {
+  margin-left: 1rem;
+}
+
+footer {
+  background-color: #222f3f;
+}
+
+footer span {
+  display: block;
+  background-color: #364759;
+  text-align: center;
+  text-decoration: underline;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem;
+  font-weight: 600;
+}
+
+footer img {
+  display: block;
+  margin: auto;
+  width: 12rem;
+  padding: 5rem;
+}
+
+footer a {
+  color: #fff;
+}
